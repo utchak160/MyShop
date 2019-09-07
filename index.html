@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Shop</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster+Two|Pacifico&display=swap');
+</style>
+  </head>
+<body>
+<section>
+<div class="section1">
+    <img src="images/logo2.jfif" alt="web-logo" class="logo" />
+    <div class="navigation">
+      <img src="images/toggle.png" alt="toggle" class="toggle"/>
+      <a class="cgr">Categories</a>
+    </div>
+    <div>
+      <a class="submenu">Sound devices</a>
+      <a class="submenu">Video Game console</a>
+      <a class="submenu">Mobile/Wireless phone</a>
+      <a class="submenu">Home Security System</a>
+      <a class="submenu">Cameras</a>
+      <a class="submenu">Home Theatre system</a>
+      <a class="submenu">TVs</a>
+      <a class="submenu">Computers</a>
+      <a class="submenu">Games/Movies/Music</a>
+      <a class="submenu">Acessories</a>
+      <a class="submenu">Office</a>
+      <a class="submenu">Home Appliances</a>
+</div>
+<p class="para1">Specials</p>
+<div class="Special">
+  <fieldset>
+    <legend>Sale</legend>
+    <div class="div1">
+      <img src="images/jbl.jpg" alt="jbl" class="img1" />
+    </div>
+    <div class="div2">
+      <h3>$24.34</h3>
+      <p>JBL C150SI Wired Headset with Mic  (Black, In the Ear)</p>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Sale</legend>
+    <div class="div1">
+      <img src="images/vivo.jpg" alt="phone" class="img1" />
+    </div>
+    <div class="div2">
+      <h3>$24.3</h3>
+      <p>Vivo Xshot</p>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Sale</legend>
+    <div class="div1">
+      <img src="images/carcharger.jpg" alt="trimmer" class="img1" />
+    </div>
+    <div class="div2">
+      <h3>$24.3</h3>
+      <p>Ambrane 5.4 Amp Qualcomm Certified Turbo Car Charger</p>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Sale</legend>
+    <div class="div1">
+      <img src="images/torch.webp" alt="trimmer" class="img1" />
+    </div>
+    <div class="div2">
+      <h3>$24.3</h3>
+      <p>Wipro Emerald Torch  (Maroon : Rechargeable)</p>
+    </div>
+  </fieldset>
+</div>
+</div>
+<div class="section2">
+   <input type="text" placeholder="Search..." class="txtsrch" /><button type="button" class="btnsrch">Search</button>
+   <img src="images/call1.png" alt="call-icon" class="call-icon" />
+   <span class="tel-no">756-0539-7777</span>
+ <img src="images/img_avatar.png" alt="Avatar" class="avatar1">
+ <!-- <a href="register.html" type="button"<span="tell-no">Sign up</span></a> -->
+ <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+
+  <form class="modal-content animate" href="index.html">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images/img_avatar.png" alt="Avatar" class="avatar1">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+<div class="container">
+  <nav>
+    <a class="menuitem">Home</a>
+    <a class="menuitem">Wish list(0)</a>
+    <a class="menuitem">Account</a>
+    <a class="menuitem">Shopping Cart</a>
+    <a class="menuitem">Checkout</a>
+    <a class="menuitem">Items</a>
+  </nav>
+  <div class="slider">
+    <div class="slides">
+      <div class="slide1">
+        <img src="images/ip3.png" alt="image" class="img1"/>
+      </div>
+      <div class="constant">
+        <h1>Iphone 7</h1>
+        <p>Comfort is a very important things nowadays because it is a condition of satisfaction.</p>
+        <a href="https://www.flipkart.com/search?q=iphone+7&as=on&as-show=on&otracker=AS_Query_OrganicAutoSuggest_3_6_na_na_na&otracker1=AS_Query_OrganicAutoSuggest_3_6_na_na_na&as-pos=3&as-type=RECENT&suggestionId=iphone+7&requestId=91c1653e-1369-4f2f-8790-e688acbd5d27&as-backfill=on" class="btnshopnow">Shop Now!</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content1">
+  <div class="innertitle1">
+    <h3>Home & Theatre & TV</h3>
+      <p class="para1">Comfort is a very important things nowadays because it is a condition of satisfaction.</p>
+      <br/>
+      <a href="https://www.flipkart.com/search?q=home+theater&sid=0pm%2C0o7&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_0_4_na_na_pr&otracker1=AS_QueryStore_OrganicAutoSuggest_0_4_na_na_pr&as-pos=0&as-type=RECENT&suggestionId=home+theater&requestId=a746b48c-5110-451c-a59c-fbad3b25bfd4&as-backfill=on" class="para1">Shop Now</a>
+    </div>
+    <div class="innertitle2">
+      <h3>Home Appliances</h3>
+        <p class="para1">The wonderful world of home appliances now makes it possible to cook indoors with charcoal and outdoors with gas.</p>
+        <br/>
+        <a href="https://www.flipkart.com/search?q=gas+stove&sid=upp%2Cd7m%2Cuhm&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_0_3_na_na_pr&otracker1=AS_QueryStore_OrganicAutoSuggest_0_3_na_na_pr&as-pos=0&as-type=RECENT&suggestionId=gas+stove&requestId=dc0c61ab-1ad2-43c6-ba61-7c21bc0c4d2e&as-searchtext=gas" class="para1">Shop Now</a>
+      </div>
+      <div class="inner1">
+        <img src="images/h&tv.jpg" alt="image" class="img1"/>
+      </div>
+      <div class="inner2">
+        <img src="images/homeapp.png" alt="image" class="img2"/>
+</div>
+</div>
+<p class="featuredpara">Latest</p>
+<div class="products">
+  <fieldset class="col1">
+    <legend>New</legend>
+    <img src="images/laptop.jpg" alt="Laptop" class="img1"/>
+    <h3>$184.78</h3>
+    <h4>Acer Nitro 5 Ryzen 5 Quad Core - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics) AN515-43 Gaming Laptop  (15.6 inch, Obsidian Black, 2.3 kg)</h4>
+    <p>You can sit in a room and create anything you want on a laptop. That's why the real con men are gone.</p>
+  </fieldset>
+
+  <fieldset class="col2">
+    <legend>New</legend>
+    <img src="images/camera.jpg" alt="Camera" class="img1" />
+    <h3>$184.78</h3>
+    <h4>Canon EOS 80D DSLR Camera with 18-135mm Lens</h4>
+    <p>Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design.</p>
+  </fieldset>
+
+  <fieldset class="col3">
+    <legend>New</legend>
+    <img src="images/printer.jpeg" alt="Printers" class="img1" />
+    <h3>$184.78</h3>
+    <h4>Canon Pixma G 2000 Multi-function Printer  (Black, Refillable Ink Tank)</h4>
+    <p>
+You no longer have to run to the nearest Xerox centre to print important documents. Bring home the Canon Pixma G2000 and scan, print or copy your documents with this printer.
+
+
+</p>
+  </fieldset>
+</div>
+<p class="featuredpara">Featured</p>
+<div class="products" style="margin-top: 2vh;">
+  <fieldset class="col1">
+    <legend>Hot Deal</legend>
+    <img src="images/pendrive.jpeg" alt="Pendrive" class="img1"/>
+    <h3>$184.78</h3>
+    <h4>SanDisk SDDDC2-032G-I35 32 GB OTG Drive  (Black, Type A to Type C)</h4>
+    <p>Featuring dual connectors (USB Type-C and USB Type-A), this 32 GB SanDisk pen drives helps you transfer data or free up space from your smartphone/tablet or computer easily.</p>
+  </fieldset>
+
+  <fieldset class="col2">
+    <legend>Hot Deal</legend>
+    <img src="images/powerbank1.jpeg" alt="Camera" class="img1" />
+    <h3>$184.78</h3>
+    <h4>Lenovo 10000 mAh Power Bank (MP1060)  (White, Lithium Polymer)</h4>
+    <p>Don’t worry about your digital devices dying on you when you’re out and about in the world, because this 10000 mAh lithium polymer power bank is here to keep them charged and running.</p>
+  </fieldset>
+
+  <fieldset class="col3">
+    <legend>Hot Deal</legend>
+    <img src="images/fridge1.jpg" alt="Printers" class="img1" />
+    <h3>$184.78</h3>
+    <h4>Godrej 190 L Direct Cool Single Door 5 Star Refrigerator  (Shiny Steel, RD EPRO 205 TAI 5.2 SNY STL)</h4>
+    <p>Bring home this Godrej 190 L Direct Cool refrigerator to ensure that your kitchen is stocked with your favorite dishes, fresh vegetables/fruits, and chilled drinks.</p>
+  </fieldset>
+</div>
+</div>
+</section>
+<div class="background">
+<div class="footer">
+  <div class="outer">
+    <div class="inner">
+      <h4>Information</h4>
+      <a href="">About</a>
+      <a href="">Delivery Information</a>
+      <a href="">Privacy Policy</a>
+      <a href="">Terms & Condition</a>
+    </div>
+    <div class="inner2">
+      <h4>Customer Information</h4>
+      <a href="">Customer Information</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="">Return</a>
+      <a href="">Site Map</a>
+    </div>
+    <div class="inner">
+      <h4 href="">My Account</h4>
+      <a href="">Order History</a>
+      <a href="">Wish List</a>
+      <a href="">News Latter</a>
+    </div>
+    <div class="inner2">
+      <h4>Follow us</h4>
+      <a href="https://www.facebook.com/">Facebook</a>
+      <a href="https://www.instagram.com/">Instagram</a>
+      <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Google+</a>
+      <a href="">Youtube</a>
+    </div>
+  </div>
+  <hr />
+  <div class="copyright">
+    <span>Powered by Utkarsh&copy;2019</span>
+</div>
+</div>
+</div>
+</body>
+</html>
